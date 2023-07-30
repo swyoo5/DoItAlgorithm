@@ -20,6 +20,6 @@ int main(void)
 	if (b > max) max = b;
 	if (c > max) max = c;
 
-	cout << "최댓값은 " << max << "입니다.\n";
+	cout << "최댓값은 " << max << "입니다." << endl;
 	return 0;
 }
