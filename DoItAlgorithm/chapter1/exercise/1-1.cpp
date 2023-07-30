@@ -6,20 +6,20 @@ int main(void)
 {
 	int a, b, c;
 	
-	cout << "¼¼ Á¤¼öÀÇ ÃÖ´ñ°ªÀ» ±¸ÇÕ´Ï´Ù.\n";
-	cout << "a°ª : ";
+	cout << "ì„¸ ì •ìˆ˜ì˜ ìµœëŒ“ê°’ì„ êµ¬í•©ë‹ˆë‹¤.\n";
+	cout << "aê°’ : ";
 	cin >> a;
 
-	cout << "b°ª : ";
+	cout << "bê°’ : ";
 	cin >> b;
 
-	cout << "c°ª : ";
+	cout << "cê°’ : ";
 	cin >> c;
 
 	int max = a;
 	if (b > max) max = b;
 	if (c > max) max = c;
 
-	cout << "ÃÖ´ñ°ªÀº " << max << "ÀÔ´Ï´Ù." << endl;
+	cout << "ìµœëŒ“ê°’ì€ " << max << "ìž…ë‹ˆë‹¤." << endl;
 	return 0;
 }
