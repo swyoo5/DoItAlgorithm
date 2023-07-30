@@ -5,9 +5,9 @@ using namespace std;
 int main(void)
 {
 	int n;
-	printf("1ºÎÅÍ n±îÁöÀÇ ÃÑÇÕÀ» ±¸ÇÕ´Ï´Ù.\n");
+	printf("1ë¶€í„° nê¹Œì§€ì˜ ì´í•©ì„ êµ¬í•©ë‹ˆë‹¤.\n");
 
-	printf("n°ª : ");
+	printf("nê°’ : ");
 	cin >> n;
 
 	int sum = 0;
@@ -15,6 +15,6 @@ int main(void)
 		sum += i;
 	}
 
-	printf("1ºÎÅÍ %d±îÁöÀÇ ÃÑÇÕÀº %dÀÔ´Ï´Ù.\n", n, sum);
+	printf("1ë¶€í„° %dê¹Œì§€ì˜ ì´í•©ì€ %dì…ë‹ˆë‹¤.\n", n, sum);
 	return 0;
 }
