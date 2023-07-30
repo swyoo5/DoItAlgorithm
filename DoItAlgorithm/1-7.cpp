@@ -11,8 +11,10 @@ int main(void)
 	cin >> n;
 
 	int sum = 0;
-	for (int i = 1; i <= n; i++) {
+	int i = 1;
+	while (i <= n) {
 		sum += i;
+		i++;
 	}
 
 	printf("1부터 %d까지의 총합은 %d입니다.\n", n, sum);
