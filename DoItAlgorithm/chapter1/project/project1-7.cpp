@@ -4,10 +4,10 @@ using namespace std;
 
 int main(void)
 {
-	printf("1ºÎÅÍ n±îÁöÀÇ ÃÑÇÕÀ» ±¸ÇÕ´Ï´Ù.\n");
+	printf("1ë¶€í„° nê¹Œì§€ì˜ ì´í•©ì„ êµ¬í•©ë‹ˆë‹¤.\n");
 
 	int n;
-	printf("n°ª : ");
+	printf("nê°’ : ");
 	cin >> n;
 
 	int sum = 1;
