@@ -4,11 +4,11 @@ using namespace std;
 
 int main(void)
 {
-	printf("1ºÎÅÍ n±îÁöÀÇ ÃÑÇÕÀ» ±¸ÇÕ´Ï´Ù.\n");
+	printf("1ë¶€í„° nê¹Œì§€ì˜ ì´í•©ì„ êµ¬í•©ë‹ˆë‹¤.\n");
 
 	int n;
 	do {
-		printf("n°ª : ");
+		printf("nê°’ : ");
 		cin >> n;
 	} while (n <= 0);
 
@@ -17,6 +17,6 @@ int main(void)
 		sum += i;
 	}
 
-	printf("1ºÎÅÍ %d±îÁöÀÇ ÃÑ ÇÕÀº %dÀÔ´Ï´Ù.", n, sum);
+	printf("1ë¶€í„° %dê¹Œì§€ì˜ ì´ í•©ì€ %dìž…ë‹ˆë‹¤.", n, sum);
 	return 0;
 }
