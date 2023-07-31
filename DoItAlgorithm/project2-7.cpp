@@ -32,6 +32,9 @@ int main(void)
 	printf("a의 요소는 다음과 같습니다.\n");
 	arrShow(a, n);
 
+	delete[] a;
+	delete[] b;
+
 	return 0;
 }
 
