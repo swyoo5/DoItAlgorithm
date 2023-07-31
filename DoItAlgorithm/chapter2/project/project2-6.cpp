@@ -6,21 +6,21 @@ void baseConversion(int num, const int base);
 
 int main(void)
 {
-	printf("10Áø¼ö¸¦ ±â¼ö º¯È¯ÇÕ´Ï´Ù.\n");
+	printf("10ì§„ìˆ˜ë¥¼ ê¸°ìˆ˜ ë³€í™˜í•©ë‹ˆë‹¤.\n");
 
 	int retry = 0;
 	do {
 		int num;
-		printf("º¯È¯ÇÏ´Â À½ÀÌ ¾Æ´Ñ Á¤¼ö : ");
+		printf("ë³€í™˜í•˜ëŠ” ìŒì´ ì•„ë‹Œ ì •ìˆ˜ : ");
 		cin >> num;
 
 		int base;
-		printf("¾î¶² Áø¼ö·Î ¹ôÈ¯ÇÒ±î¿ä? (2 - 36) : ");
+		printf("ì–´ë–¤ ì§„ìˆ˜ë¡œ ë±í™˜í• ê¹Œìš”? (2 - 36) : ");
 		cin >> base;
 
 		baseConversion(num, base);
 
-		printf("ÇÑ¹ø ´õ ÇÒ±î¿ä? (¿¹ : 1, ¾Æ´Ï¿À : 0) : ");
+		printf("í•œë²ˆ ë” í• ê¹Œìš”? (ì˜ˆ : 1, ì•„ë‹ˆì˜¤ : 0) : ");
 		cin >> retry;
 	} while (retry == 1);
 	
@@ -32,12 +32,12 @@ void baseConversion(int num, const int base)
 	string digitNum = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	string result = "";
 	do {
-		printf("%d | %7d ¡¤¡¤ %c\n", base, num, digitNum[num % base]);
+		printf("%d | %7d Â·Â· %c\n", base, num, digitNum[num % base]);
 		printf("   +-------------\n");
 		result = digitNum[num % base] + result;
 		num /= base;
 	} while (num > 0);
 	printf("           0\n");
 
-	cout << base << "Áø¼ö·Î " << result << " ÀÔ´Ï´Ù." << endl;
+	cout << base << "ì§„ìˆ˜ë¡œ " << result << " ìž…ë‹ˆë‹¤." << endl;
 }
