@@ -23,6 +23,8 @@ int main(void)
 	cin >> key;
 
 	printf("%d는(은) arr[%d]에 있습니다.\n", key, search(arr, n, key));
+	delete[] arr;
+
 	return 0;
 }
 
