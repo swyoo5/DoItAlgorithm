@@ -14,6 +14,6 @@ int main(void)
 
 		if (j == i) printf("%d\n", i);
 	}
-	cout << "³ª´°¼À È½¼ö : " << count << endl;
+	cout << "Â³ÂªÂ´Â°Â¼Ã€ ÃˆÂ½Â¼Ã¶ : " << count << endl;
 	return 0;
 }
