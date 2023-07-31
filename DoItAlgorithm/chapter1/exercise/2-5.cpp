@@ -6,18 +6,18 @@ int maxof(const int a[], int n);
 
 int main(void)
 {
-	printf("»ç¶÷¼ö : ");
+	printf("ì‚¬ëŒìˆ˜ : ");
 	int people;
 	cin >> people;
 
 	int* height = new int[people];
-	printf("%d¸íÀÇ »ç¶÷ÀÇ Å°¸¦ ÀÔ·ÂÇÏ¼¼¿ä.\n", people);
+	printf("%dëª…ì˜ ì‚¬ëŒì˜ í‚¤ë¥¼ ì…ë ¥í•˜ì„¸ìš”.\n", people);
 
 	for (int i = 0; i < people; i++) {
 		printf("height[%d] : ", i);
 		cin >> height[i];
 	}
-	printf("ÃÖ´ñ°ªÀº %dÀÔ´Ï´Ù.\n", maxof(height, people));
+	printf("ìµœëŒ“ê°’ì€ %dì…ë‹ˆë‹¤.\n", maxof(height, people));
 	delete[] height;
 
 	return 0;
