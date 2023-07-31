@@ -1,4 +1,4 @@
-// ¹è¿­ bÀÇ ¸ğµç ¿ä¼Ò¸¦ ¹è¿­ a¿¡ ¿ª¼øÀ¸·Î º¹»çÇÏ´Â ÇÔ¼ö¸¦ ÀÛ¼ºÇÏ¼¼¿ä(nÀº ¿ä¼Ò °³¼öÀÔ´Ï´Ù.)
+// ë°°ì—´ bì˜ ëª¨ë“  ìš”ì†Œë¥¼ ë°°ì—´ aì— ì—­ìˆœìœ¼ë¡œ ë³µì‚¬í•˜ëŠ” í•¨ìˆ˜ë¥¼ ì‘ì„±í•˜ì„¸ìš”(nì€ ìš”ì†Œ ê°œìˆ˜ì…ë‹ˆë‹¤.)
 
 #include <iostream>
 #include <cstdlib>
@@ -12,7 +12,7 @@ void arrShow(const int a[], int n);
 int main(void)
 {
 	int n;
-	printf("¿ä¼ÒÀÇ °³¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf("ìš”ì†Œì˜ ê°œìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 	cin >> n;
 
 	int* a = new int[n];
@@ -25,21 +25,21 @@ int main(void)
 
 	reverseCopy(a, b, n);
 
-	printf("¿øº»¹è¿­(b)ÀÇ ¿ä¼ÒÀÔ´Ï´Ù.\n");
+	printf("ì›ë³¸ë°°ì—´(b)ì˜ ìš”ì†Œì…ë‹ˆë‹¤.\n");
 	arrShow(b, n);
 
-	printf("º¹»çµÈ ¹è¿­(a)ÀÇ ¿ä¼ÒÀÔ´Ï´Ù.\n");
+	printf("ë³µì‚¬ëœ ë°°ì—´(a)ì˜ ìš”ì†Œì…ë‹ˆë‹¤.\n");
 	arrShow(a, n);
 	return 0;
 }
 
 void reverseCopy(int a[], const int b[], int n)
 {
-	printf("¿ä¼Ò¸¦ ¿ª¼øÀ¸·Î º¹»çÇÕ´Ï´Ù.\n");
+	printf("ìš”ì†Œë¥¼ ì—­ìˆœìœ¼ë¡œ ë³µì‚¬í•©ë‹ˆë‹¤.\n");
 	for (int i = 0; i < n; i++) {
 		a[i] = b[n - i - 1];
 	}
-	printf("º¹»ç°¡ ³¡³µ½À´Ï´Ù.\n\n");
+	printf("ë³µì‚¬ê°€ ëë‚¬ìŠµë‹ˆë‹¤.\n\n");
 }
 
 void arrShow(const int a[], int n)
