@@ -8,11 +8,11 @@ int main(void)
 {
 	int n;
 
-	printf("ÀÌÁø °Ë»ö\n");
-	printf("¿ä¼Ò °³¼ö : ");
+	printf("ì´ì§„ ê²€ìƒ‰\n");
+	printf("ìš”ì†Œ ê°œìˆ˜ : ");
 	cin >> n;
 
-	printf("¿À¸§Â÷¼øÀ¸·Î ÀÔ·ÂÇÏ¼¼¿ä.\n");
+	printf("ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ ì…ë ¥í•˜ì„¸ìš”.\n");
 
 	int* arr = new int[n];
 
@@ -26,16 +26,16 @@ int main(void)
 		} while (arr[i - 1] > arr[i]);
 	}
 
-	printf("°Ë»ö°ª : ");
+	printf("ê²€ìƒ‰ê°’ : ");
 	int key;
 	cin >> key;
 
 	int index = binarySearch(arr, n, key);
 	if (index == -1) {
-		printf("°Ë»ö¿¡ ½ÇÆĞÇß½À´Ï´Ù.\n");
+		printf("ê²€ìƒ‰ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤.\n");
 	}
 	else {
-		printf("%d´Â x[%d]¿¡ ÀÖ½À´Ï´Ù.\n", key, index);
+		printf("%dëŠ” x[%d]ì— ìˆìŠµë‹ˆë‹¤.\n", key, index);
 	}
 	return 0;
 }
