@@ -1,4 +1,4 @@
-// 2-5╦╕ ╪Жа╓го©╘ е╟юг гу╟Х╦╕ ╠╦го╢б га╥н╠в╥╔ю╩ юш╪╨го╪╪©Д.
+// 2-5К╔╪ Л┬≤Л═∙М∙≤Л≈╛ М┌╓Л²≤ М∙╘ЙЁ└К╔╪ Й╣╛М∙≤К┼■ М■└К║°Й╥╦К·╗Л²└ Л·▒Л└╠М∙≤Л└╦Л ■.
 
 #include <iostream>
 
@@ -8,18 +8,18 @@ int sumof(const int a[], int n);
 
 int main(void)
 {
-	printf("╩Г╤В╪Ж : ");
+	printf("Л┌╛К·▄Л┬≤ : ");
 	int people;
 	cin >> people;
 
 	int* height = new int[people];
-	printf("%d╦Мюг е╟╦╕ ют╥бго╪╪©Д.\n", people);
+	printf("%dК╙┘Л²≤ М┌╓К╔╪ Л·┘К═╔М∙≤Л└╦Л ■.\n", people);
 
 	for (int i = 0; i < people; i++) {
 		printf("height[%d] : ", i);
 		cin >> height[i];
 	}
-	printf("е╟юг гу╟Х╢б %dют╢о╢ы.\n", sumof(height, people));
+	printf("М┌╓Л²≤ М∙╘ЙЁ└К┼■ %dЛ·┘К▀┬К▀╓.\n", sumof(height, people));
 	delete[] height;
 	return 0;
 }
