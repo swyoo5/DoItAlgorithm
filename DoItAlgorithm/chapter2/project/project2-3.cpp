@@ -1,4 +1,4 @@
-// Å°ÀÇ Æò±ÕÀ» ±¸ÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ¼¼¿ä.
+// í‚¤ì˜ í‰ê· ì„ êµ¬í•˜ëŠ” í”„ë¡œê·¸ë¨ì„ ì‘ì„±í•˜ì„¸ìš”.
 
 #include <iostream>
 
@@ -8,13 +8,13 @@ double aveof(const int a[], int n);
 
 int main(void)
 {
-	printf("»ç¶÷¼ö : ");
+	printf("ì‚¬ëŒìˆ˜ : ");
 	int people;
 	cin >> people;
 
 	int* height = new int[people];
 
-	printf("%d¸íÀÇ Å°¸¦ ÀÔ·ÂÇÏ¼¼¿ä.\n", people);
+	printf("%dëª…ì˜ í‚¤ë¥¼ ì…ë ¥í•˜ì„¸ìš”.\n", people);
 	for (int i = 0; i < people; i++) {
 		printf("height[%d] : ", i);
 		cin >> height[i];
@@ -22,7 +22,7 @@ int main(void)
 
 	cout.precision(3);
 	cout << fixed;
-	cout << "Å°ÀÇ Æò±ÕÀº " << aveof(height, people) << " ÀÔ´Ï´Ù.\n";
+	cout << "í‚¤ì˜ í‰ê· ì€ " << aveof(height, people) << " ì…ë‹ˆë‹¤.\n";
 	return 0;
 }
 
