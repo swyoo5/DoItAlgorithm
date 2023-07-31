@@ -15,18 +15,18 @@ int main(void)
 	int retry = 0;
 	int year, month, day;
 	do {
-		printf("¿¬µµ : ");
+		printf("ì—°ë„ : ");
 		cin >> year;
 
-		printf("¿ù : ");
+		printf("ì›” : ");
 		cin >> month;
 
-		printf("ÀÏ : ");
+		printf("ì¼ : ");
 		cin >> day;
 
-		printf("%d³âÀÇ %dÀÏ Â°ÀÔ´Ï´Ù.\n", year, calcDay(year, month, day));
+		printf("%dë…„ì˜ %dì¼ ì§¸ì…ë‹ˆë‹¤.\n", year, calcDay(year, month, day));
 
-		printf("´Ù½Ã ÇÒ±î¿ä? (¿¹ : 1, ¾Æ´Ï¿À : 0) ");
+		printf("ë‹¤ì‹œ í• ê¹Œìš”? (ì˜ˆ : 1, ì•„ë‹ˆì˜¤ : 0) ");
 		cin >> retry;
 	} while (retry == 1);
 	return 0;
