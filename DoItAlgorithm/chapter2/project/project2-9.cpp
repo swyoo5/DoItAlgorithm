@@ -1,4 +1,4 @@
-// ¹è¿­ aÀÇ ¸ðµç ¿ä¼ÒÀÇ ¼ø¼­¸¦ µÚ¼¯´Â shuffleÇÔ¼ö¸¦ ÀÛ¼ºÇÏ¼¼¿ä(nÀº ¿ä¼ÒÀÇ °³¼öÀÔ´Ï´Ù.
+// ë°°ì—´ aì˜ ëª¨ë“  ìš”ì†Œì˜ ìˆœì„œë¥¼ ë’¤ì„žëŠ” shuffleí•¨ìˆ˜ë¥¼ ìž‘ì„±í•˜ì„¸ìš”(nì€ ìš”ì†Œì˜ ê°œìˆ˜ìž…ë‹ˆë‹¤.
 
 #include <iostream>
 #include <cstdlib>
@@ -13,19 +13,19 @@ void showArr(int a[], int n);
 int main(void)
 {
 	int n;
-	printf("¹è¿­ÀÇ ¿ø¼ÒÀÇ °³¼ö : ");
+	printf("ë°°ì—´ì˜ ì›ì†Œì˜ ê°œìˆ˜ : ");
 	cin >> n;
 
 	int* a = new int[n];
 	for (int i = 0; i < n; i++) {
 		a[i] = rand() % 100;
 	}
-	printf("¼ø¼­¸¦ µÚ¼¯±â Àü\n");
+	printf("ìˆœì„œë¥¼ ë’¤ì„žê¸° ì „\n");
 	showArr(a, n);
 
 	shuffle(a, n);
 
-	printf("¼ø¼­¸¦ ¼¯Àº ÈÄ\n");
+	printf("ìˆœì„œë¥¼ ì„žì€ í›„\n");
 	showArr(a, n);
 
 	delete[] a;
