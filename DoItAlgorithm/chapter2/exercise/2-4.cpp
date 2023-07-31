@@ -4,22 +4,22 @@ using namespace std;
 
 int main(void)
 {
-	printf("¿ä¼ÒÀÇ °³¼ö : ");
+	printf("ìš”ì†Œì˜ ê°œìˆ˜ : ");
 	int n;
 	cin >> n;
 
 	int* a = new int[n];
 
 	if (a == nullptr) {
-		cout << "¸Ş¸ğ¸® ÇÒ´ç¿¡ ½ÇÆĞÇß½À´Ï´Ù.\n";
+		cout << "ë©”ëª¨ë¦¬ í• ë‹¹ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤.\n";
 	}
 	else {
-		printf("%d°³ÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.\n", n);
+		printf("%dê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.\n", n);
 		for (int i = 0; i < n; i++) {
 			printf("a[%d] : ", i);
 			cin >> a[i];
 		}
-		printf("°¢ ¿ä¼ÒÀÇ °ª\n");
+		printf("ê° ìš”ì†Œì˜ ê°’\n");
 
 		for (int i = 0; i < n; i++) {
 			printf("a[%d] = %d\n", i, a[i]);
