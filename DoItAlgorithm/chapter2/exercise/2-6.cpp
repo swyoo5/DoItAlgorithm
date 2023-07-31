@@ -8,7 +8,7 @@ int maxof(const int a[], int n);
 
 int main(void)
 {
-	printf("»ç¶÷¼ö : ");
+	printf("ì‚¬ëžŒìˆ˜ : ");
 	int people;
 	cin >> people;
 
@@ -16,11 +16,11 @@ int main(void)
 
 	srand((unsigned int)time(NULL));
 	for (int i = 0; i < people; i++) {
-		height[i] = 100 + rand() % 90; // 100 ~ 189°ª ·£´ý
+		height[i] = 100 + rand() % 90; // 100 ~ 189ê°’ ëžœë¤
 		printf("height[%d] = %d\n", i, height[i]);
 	}
 
-	printf("ÃÖ´ñ°ªÀº %dÀÔ´Ï´Ù.\n", maxof(height, people));
+	printf("ìµœëŒ“ê°’ì€ %dìž…ë‹ˆë‹¤.\n", maxof(height, people));
 	return 0;
 }
 
