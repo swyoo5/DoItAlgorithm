@@ -28,6 +28,6 @@ int main(void)
 		printf("%d\n", prime[i]);
 	}
 
-	printf("¿¬»ê(°ö¼À, ³ª´°¼À) È½¼ö : %d\n", count);
+	printf("Â¿Â¬Â»Ãª(Â°Ã¶Â¼Ã€, Â³ÂªÂ´Â°Â¼Ã€) ÃˆÂ½Â¼Ã¶ : %d\n", count);
 	return 0;
 }
