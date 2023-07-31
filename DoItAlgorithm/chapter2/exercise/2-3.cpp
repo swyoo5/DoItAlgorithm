@@ -6,7 +6,7 @@ int main(void)
 {
 	int* x = new int;
 	if (x == nullptr) {
-		cout << "¸Þ¸ð¸® ÇÒ´ç¿¡ ½ÇÆÐÇß½À´Ï´Ù." << endl;
+		cout << "ë©”ëª¨ë¦¬ í• ë‹¹ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤." << endl;
 	}
 	else {
 		*x = 57;

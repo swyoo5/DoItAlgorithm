@@ -19,9 +19,9 @@ int main(void)
 	return 0;
 }
 
-void triangleLB(int n) // ¿ŞÂÊ ¾Æ·¡ Á÷°¢
+void triangleLB(int n) // ì™¼ìª½ ì•„ë˜ ì§ê°
 {
-	printf("¿ŞÂÊ ¾Æ·¡ Á÷°¢\n");
+	printf("ì™¼ìª½ ì•„ë˜ ì§ê°\n");
 	for (int i = 1; i <= n; i++) {
 		for (int j = 1; j <= i; j++) {
 			printf("*");
@@ -31,9 +31,9 @@ void triangleLB(int n) // ¿ŞÂÊ ¾Æ·¡ Á÷°¢
 	printf("\n");
 }
 
-void triangleLU(int n) // ¿ŞÂÊ À§ Á÷°¢
+void triangleLU(int n) // ì™¼ìª½ ìœ„ ì§ê°
 {
-	printf("¿ŞÂÊ À§ Á÷°¢\n");
+	printf("ì™¼ìª½ ìœ„ ì§ê°\n");
 	for (int i = 1; i <= n; i++) {
 		for (int j = 1; j <= n - i + 1; j++) {
 			printf("*");
@@ -42,9 +42,9 @@ void triangleLU(int n) // ¿ŞÂÊ À§ Á÷°¢
 	}
 	printf("\n");
 }
-void triangleRU(int n) // ¿À¸¥ÂÊ À§ Á÷°¢
+void triangleRU(int n) // ì˜¤ë¥¸ìª½ ìœ„ ì§ê°
 {
-	printf("¿À¸¥ÂÊ À§ Á÷°¢\n");
+	printf("ì˜¤ë¥¸ìª½ ìœ„ ì§ê°\n");
 	for (int i = 1; i <= n; i++) {
 		for (int j = 1; j < i; j++) {
 			printf(" ");
@@ -58,9 +58,9 @@ void triangleRU(int n) // ¿À¸¥ÂÊ À§ Á÷°¢
 	}
 	printf("\n");
 }
-void triangleRB(int n) // ¿À¸¥ÂÊ ¾Æ·¡ Á÷°¢
+void triangleRB(int n) // ì˜¤ë¥¸ìª½ ì•„ë˜ ì§ê°
 {
-	printf("¿À¸¥ÂÊ ¾Æ·¡ Á÷°¢\n");
+	printf("ì˜¤ë¥¸ìª½ ì•„ë˜ ì§ê°\n");
 	for (int i = 1; i <= n; i++) {
 		for (int j = 1; j <= n - i; j++) {
 			printf(" ");

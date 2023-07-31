@@ -1,4 +1,4 @@
-// Å°ÀÇ ÃÖ¼Ú°ªÀ» ±¸ÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ¼¼¿ä
+// í‚¤ì˜ ìµœì†Ÿê°’ì„ êµ¬í•˜ëŠ” í”„ë¡œê·¸ë¨ì„ ì‘ì„±í•˜ì„¸ìš”
 // int minof(const int a[], int n);
 
 #include <iostream>
@@ -11,7 +11,7 @@ int minof(const int a[], int n);
 
 int main(void)
 {
-	printf("»ç¶÷¼ö : ");
+	printf("ì‚¬ëŒìˆ˜ : ");
 	int people;
 	cin >> people;
 
@@ -23,7 +23,7 @@ int main(void)
 		printf("height[%d] : %d\n", i, height[i]);
 	}
 
-	printf("ÃÖ¼Ú°ªÀº %d ÀÔ´Ï´Ù.", minof(height, people));
+	printf("ìµœì†Ÿê°’ì€ %d ì…ë‹ˆë‹¤.", minof(height, people));
 	return 0;
 }
 

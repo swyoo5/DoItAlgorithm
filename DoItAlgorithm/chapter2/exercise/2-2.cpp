@@ -6,7 +6,7 @@ int main(void)
 {
 	int a[5] = { 1, 2, 3, 4, 5 };
 	int size = sizeof(a) / sizeof(a[0]);
-	printf("¹è¿­ aÀÇ ¿ä¼ÒÀÇ °³¼ö´Â %dÀÔ´Ï´Ù.\n", size);
+	printf("ë°°ì—´ aì˜ ìš”ì†Œì˜ ê°œìˆ˜ëŠ” %dì…ë‹ˆë‹¤.\n", size);
 
 	for (int i = 0; i < size; i++) {
 		printf("a[%d] = %d\n", i, a[i]);

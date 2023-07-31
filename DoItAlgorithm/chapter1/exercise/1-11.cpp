@@ -7,7 +7,7 @@ int main(void)
 	int n;
 
 	do {
-		printf("��� �ﰢ���Դϱ�?");
+		printf("¸î´Ü »ï°¢ÇüÀÔ´Ï±î?");
 		cin >> n;
 	} while (n <= 0);
 

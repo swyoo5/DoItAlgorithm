@@ -4,13 +4,13 @@ using namespace std;
 
 int main(void)
 {
-	printf("Á÷»ç°¢ÇüÀ» Ãâ·ÂÇÕ´Ï´Ù.\n");
+	printf("ì§ì‚¬ê°í˜•ì„ ì¶œë ¥í•©ë‹ˆë‹¤.\n");
 
-	printf("³ôÀÌ : ");
+	printf("ë†’ì´ : ");
 	int height;
 	cin >> height;
 
-	printf("³Êºñ : ");
+	printf("ë„ˆë¹„ : ");
 	int width;
 	cin >> width;
 

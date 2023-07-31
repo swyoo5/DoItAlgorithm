@@ -2,28 +2,27 @@
 
 using namespace std;
 
-void spira(int n);
+void nrpira(int n);
 
 int main(void)
 {
 	int n;
 	cin >> n;
 
-	spira(n);
+	nrpira(n);
 
 	return 0;
 }
 
-void spira(int n)
+void nrpira(int n)
 {
 	for (int i = 1; i <= n; i++) {
-		for (int j = 1; j <= n - i; j++) {
+		for (int j = 1; j < i; j++) {
 			printf(" ");
 		}
-		for (int j = 1; j <= 2 * i - 1; j++) {
-			printf("*");
+		for (int j = 1; j <= 2 * (n - i) + 1; j++) {
+			printf("%d", i % 10);
 		}
-
 		printf("\n");
 	}
 	printf("\n");

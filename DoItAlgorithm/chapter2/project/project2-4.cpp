@@ -1,4 +1,4 @@
-// 2-6Àº Å°¸¦ ³­¼ö·Î »ı¼ºÇÑ ÈÄ Å°ÀÇ ÃÖ´ñ°ªÀ» ±¸ÇÏ´Â ÇÁ·Î±×·¥ÀÔ´Ï´Ù, Å°¿Í ÇÔ²² »ç¶÷¼öµµ ³­¼ö·Î »ı¼ºÇÏµµ·Ï ¼öÁ¤ÇÏ¿© ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ¼¼¿ä.
+// 2-6ì€ í‚¤ë¥¼ ë‚œìˆ˜ë¡œ ìƒì„±í•œ í›„ í‚¤ì˜ ìµœëŒ“ê°’ì„ êµ¬í•˜ëŠ” í”„ë¡œê·¸ë¨ì…ë‹ˆë‹¤, í‚¤ì™€ í•¨ê»˜ ì‚¬ëŒìˆ˜ë„ ë‚œìˆ˜ë¡œ ìƒì„±í•˜ë„ë¡ ìˆ˜ì •í•˜ì—¬ í”„ë¡œê·¸ë¨ì„ ì‘ì„±í•˜ì„¸ìš”.
 
 #include <iostream>
 #include <cstdlib>
@@ -12,17 +12,17 @@ int main(void)
 {
 	srand((unsigned)time(NULL));
 	int people = rand() % 90;
-	printf("»ç¶÷¼ö : %d¸í\n", people);
+	printf("ì‚¬ëŒìˆ˜ : %dëª…\n", people);
 
 	int* height = new int[people];
 
 	srand((unsigned int)time(NULL));
 	for (int i = 0; i < people; i++) {
-		height[i] = 100 + rand() % 90; // 100 ~ 189°ª ·£´ı
+		height[i] = 100 + rand() % 90; // 100 ~ 189ê°’ ëœë¤
 		printf("height[%d] = %d\n", i, height[i]);
 	}
 
-	printf("ÃÖ´ñ°ªÀº %dÀÔ´Ï´Ù.\n", maxof(height, people));
+	printf("ìµœëŒ“ê°’ì€ %dì…ë‹ˆë‹¤.\n", maxof(height, people));
 	return 0;
 }
 

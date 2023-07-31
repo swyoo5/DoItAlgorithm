@@ -1,6 +1,4 @@
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
 
 using namespace std;
 
@@ -8,26 +6,27 @@ int maxof(const int a[], int n);
 
 int main(void)
 {
-	printf("»ç¶÷¼ö : ");
+	printf("ì‚¬ëŒìˆ˜ : ");
 	int people;
 	cin >> people;
 
 	int* height = new int[people];
+	printf("%dëª…ì˜ ì‚¬ëŒì˜ í‚¤ë¥¼ ì…ë ¥í•˜ì„¸ìš”.\n", people);
 
-	srand((unsigned int)time(NULL));
 	for (int i = 0; i < people; i++) {
-		height[i] = 100 + rand() % 90; // 100 ~ 189°ª ·£´ı
-		printf("height[%d] = %d\n", i, height[i]);
+		printf("height[%d] : ", i);
+		cin >> height[i];
 	}
+	printf("ìµœëŒ“ê°’ì€ %dì…ë‹ˆë‹¤.\n", maxof(height, people));
+	delete[] height;
 
-	printf("ÃÖ´ñ°ªÀº %dÀÔ´Ï´Ù.\n", maxof(height, people));
 	return 0;
 }
 
 int maxof(const int a[], int n)
 {
 	int max = a[0];
-	for (int i = 0; i < n; i++) {
+	for (int i = 1; i < n; i++) {
 		if (max < a[i]) {
 			max = a[i];
 		}

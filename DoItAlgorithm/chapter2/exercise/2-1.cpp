@@ -10,7 +10,7 @@ int main(void)
 		cin >> a[i];
 	}
 
-	printf("°¢ ¿ä¼ÒÀÇ °ª\n");
+	printf("Â°Â¢ Â¿Ã¤Â¼Ã’Ã€Ã‡ Â°Âª\n");
 	for (int i = 0; i < 5; i++) {
 		printf("a[%d] = %d\n", i, a[i]);
 	}
