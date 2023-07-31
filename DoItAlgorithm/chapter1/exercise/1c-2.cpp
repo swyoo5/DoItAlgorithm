@@ -5,13 +5,13 @@ using namespace std;
 int main(void)
 {
 	int num;
-	printf("2ÀÚ¸® ¾ç¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À,\n");
+	printf("2ìë¦¬ ì–‘ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤,\n");
 	
 	do {
-		printf("¼ö´Â : ");
+		printf("ìˆ˜ëŠ” : ");
 		cin >> num;
 	} while (num < 10 || num > 99);
 
-	printf("º¯¼ö num°ªÀº %d°¡ µÇ¾ú½À´Ï´Ù.", num);
+	printf("ë³€ìˆ˜ numê°’ì€ %dê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.", num);
 	return 0;
 }
