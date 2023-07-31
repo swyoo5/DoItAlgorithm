@@ -4,8 +4,8 @@ using namespace std;
 
 int main(void)
 {
-	printf("Á¤»ç°¢ÇüÀ» Ãß·ÂÇÕ´Ï´Ù,\n");
-	printf("ÀÔ·ÂÇÒ ¼ö : ");
+	printf("ì •ì‚¬ê°í˜•ì„ ì¶”ë ¥í•©ë‹ˆë‹¤,\n");
+	printf("ìž…ë ¥í•  ìˆ˜ : ");
 
 	int n;
 	cin >> n;
