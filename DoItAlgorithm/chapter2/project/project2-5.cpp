@@ -1,4 +1,4 @@
-// ╧Х©╜ ©Д╪р╦╕ ©╙╪Ью╦╥н а╓╥дго╢б ╟За╓ю╩ юоюоюл цБ╥бго╣╣╥о 2-7га╥н╠в╥╔ю╩ ╪Жа╓го╪╪©Д.
+// К╟╟Л≈╢ Л ■Л├▄К╔╪ Л≈╜Л┬°Л°╪К║° Л═∙К═╛М∙≤К┼■ ЙЁ╪Л═∙Л²└ Л²╪Л²╪Л²╢ Л╤°К═╔М∙≤К▐└К║² 2-7М■└К║°Й╥╦К·╗Л²└ Л┬≤Л═∙М∙≤Л└╦Л ■.
 
 #include <iostream>
 #include <algorithm>
@@ -10,7 +10,7 @@ void arrReverse(int a[], int n);
 int main(void)
 {
 	int num;
-	printf("©Д╪р ╟Ё╪Ж : ");
+	printf("Л ■Л├▄ Й╟°Л┬≤ : ");
 	cin >> num;
 
 	int* x = new int[num];
@@ -30,6 +30,6 @@ void arrReverse(int a[], int n)
 			cout << a[j] << ' ';
 		}
 		cout << endl;
-		printf("a[%d], a[%d]╦╕ ╠Ёх╞гу╢о╢ы.\n", i, n - i - 1);
+		printf("a[%d], a[%d]К╔╪ Й╣░М≥≤М∙╘К▀┬К▀╓.\n", i, n - i - 1);
 	}
 }
