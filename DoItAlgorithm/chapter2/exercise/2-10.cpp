@@ -21,6 +21,6 @@ int main(void)
 	for (int i = 0; i < point; i++) {
 		cout << prime[i] << endl;
 	}
-	printf("³ª´°¼À ½ÇÇàÈ½¼ö : %d", count);
+	printf("Â³ÂªÂ´Â°Â¼Ã€ Â½Ã‡Ã‡Ã ÃˆÂ½Â¼Ã¶ : %d", count);
 	return 0;
 }

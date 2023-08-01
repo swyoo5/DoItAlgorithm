@@ -6,9 +6,9 @@ int search(const int a[], int n, int key);
 
 int main(void)
 {
-	printf("¼±Çü°Ë»ö\n");
+	printf("ì„ í˜•ê²€ìƒ‰\n");
 
-	printf("¿ä¼Ò °³¼ö : ");
+	printf("ìš”ì†Œ ê°œìˆ˜ : ");
 	int n;
 	cin >> n;
 
@@ -18,11 +18,11 @@ int main(void)
 		cin >> arr[i];
 	}
 
-	printf("°Ë»ö°ª : ");
+	printf("ê²€ìƒ‰ê°’ : ");
 	int key;
 	cin >> key;
 
-	printf("%d´Â(Àº) arr[%d]¿¡ ÀÖ½À´Ï´Ù.\n", key, search(arr, n, key));
+	printf("%dëŠ”(ì€) arr[%d]ì— ìˆìŠµë‹ˆë‹¤.\n", key, search(arr, n, key));
 	delete[] arr;
 
 	return 0;
